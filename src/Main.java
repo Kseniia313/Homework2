@@ -101,7 +101,5 @@ public class Main {
         var allWorkhours2 = TotalEmployees2*8;
         System.out.println("Если в компании работает " + TotalEmployees2 + " человек, то всего " + allWorkhours2 + " часов работы может быть поделено между сотрудниками.");
 
-
-
     }
 }
