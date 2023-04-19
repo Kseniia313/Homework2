@@ -98,8 +98,8 @@ public class Main {
         var TotalEmployees1 = allWorkHours1/workHourForOneEmployer;
         System.out.println("Всего работников в компании " + TotalEmployees1 + " человек");
         var TotalEmployees2 = TotalEmployees1+94;
-        var allWorkhours2 = TotalEmployees2/8;
-        System.out.println("Если в компании работает " + TotalEmployees2 + " человек, то всего " + allWorkhours2 + " час работы может быть поделен между сотрудниками.");
+        var allWorkhours2 = TotalEmployees2*8;
+        System.out.println("Если в компании работает " + TotalEmployees2 + " человек, то всего " + allWorkhours2 + " часов работы может быть поделено между сотрудниками.");
 
 
 
